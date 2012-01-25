@@ -1,0 +1,8 @@
+map j 10j
+map J <C-d>
+map k 10k
+map K <C-u>
+map h gT
+map l gt
+
+set editor=gvim -f
