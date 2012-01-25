@@ -1,8 +1,11 @@
-map j 10j
+map j 3j
 map J <C-d>
-map k 10k
+map k 3k
 map K <C-u>
 map h gT
 map l gt
 
+set disablesites=mail.google.com, reader.google.com
+set searchengines={"google":"https://www.google.com/search?hl=en&q={{keyword}}","yahoo":"http://search.yahoo.com/search?p={{keyword}}","wikipedia":"http://en.wikipedia.org/wiki/{{keyword}}","answers":"http://www.answers.com/main/ntquery?s={{keyword}}","yubnub":"http://yubnub.org/parser/parse?command={{keyword}}","baidu":"http://www.baidu.com/s?wd={{keyword}}","bing":"http://www.bing.com/search?setmkt=en-US&q={{keyword}}","taobao":"http://s.taobao.com/search?q={{keyword}},"book":"http://book.douban.com/subject_search?search_text={{keyword}}&cat=1001"}
+set defaultsearch=google
 set editor=gvim -f
