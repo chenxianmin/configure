@@ -7,10 +7,14 @@ map l gt
 
 unmap w
 
+<<<<<<< HEAD
 set nextpattern+=^后页|>>$
 set previouspattern+=^前页|<<$
 
 set disablesites=mail.google.com, reader.google.com
+=======
+set disablesites=mail.google.com, www.google.com/reader, doit.im
+>>>>>>> b5f21ceef9f975f9232c14d1b86a7e069a2ff617
 set searchengines={"google":"https://www.google.com/search?hl=en&q={{keyword}}","yahoo":"http://search.yahoo.com/search?p={{keyword}}","w":"http://en.wikipedia.org/wiki/{{keyword}}","answers":"http://www.answers.com/main/ntquery?s={{keyword}}","yubnub":"http://yubnub.org/parser/parse?command={{keyword}}","b":"http://www.baidu.com/s?wd={{keyword}}","bing":"http://www.bing.com/search?setmkt=en-US&q={{keyword}}","tb":"http://s.taobao.com/search?q={{keyword}}","bk":"http://book.douban.com/subject_search?search_text={{keyword}}&cat=1001"}
 set defaultsearch=google
 set editor=gvim -f
