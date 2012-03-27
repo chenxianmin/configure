@@ -7,6 +7,7 @@ map l gt
 map x dc
 
 unmap w
+unmap Y
 
 set nextpattern+=^后页|>>$
 set previouspattern+=^前页|<<$
