@@ -9,7 +9,7 @@ map x dc
 unmap w
 unmap Y
 
-set hintkeys=asdfghjkl
+set hintkeys=asdfghjkl;
 set hintkeysdisplayuppercase=1
 
 set nextpattern+=^后页|>>$
