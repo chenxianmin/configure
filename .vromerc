@@ -9,8 +9,7 @@ map x dc
 unmap w
 unmap Y
 
-set hintkeys=asdfghjkl;
-set hintkeysdisplayuppercase=1
+set hintkeys=asdfghjkl
 
 set nextpattern+=^后页|>>$
 set previouspattern+=^前页|<<$
